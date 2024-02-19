@@ -8,6 +8,11 @@ class AdminModule:
         self.load_data()
 
     def load_data(self):
+        '''
+
+        hellllo
+        :return:
+        '''
         try:
             with open(self.filename, 'r') as file:
                 data = json.load(file)
